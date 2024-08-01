@@ -145,7 +145,7 @@ A cute orange cat lying on its back
 
 You can link to another page with the anchor (a) element.
 
-Here is an example linking to [freeCodeCamp] (https://www.freecodecamp.org:)
+Here is an example linking to https://www.freecodecamp.org:
 
 Example Code
 
