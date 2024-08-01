@@ -116,11 +116,15 @@ Here is an example of an img element with a src attribute pointing to the freeCo
 
 Example Code
 
-!<img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg">
+```img
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg">
+```
 
 Inside the existing img element, add a src attribute with this URL:
 
-!https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+```https
+https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg
+```
 
 **Step 9**
 
@@ -130,7 +134,9 @@ Here is an example of an img element with an alt attribute:
 
 Example Code
 
-!<img src="cat.jpg" alt="A cat">
+```img
+<img src="cat.jpg" alt="A cat">
+```
 Inside the img element, add an alt attribute with this text:
 
 A cute orange cat lying on its back
