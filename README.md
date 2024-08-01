@@ -143,11 +143,13 @@ Here is an example linking to [freeCodeCamp] (https://www.freecodecamp.org:)
 
 Example Code
 
+```href
 <a href="https://www.freecodecamp.org"></a>
+```
 
 Add an anchor element after the paragraph that links to https://freecatphotoapp.com. At this point, the link won’t show up in the preview.
 
-Step 11
+**Step 11**
 
 A link's text must be placed between the opening and closing tags of an anchor (a) element.
 
@@ -155,24 +157,29 @@ Here is an example of a link with the text click here to go to freeCodeCamp.org:
 
 Example Code
 
+```href
 <a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>
+```
 
 Add the anchor text link to cat pictures to the anchor element. This will become the link's text.
 
-Step 12
+**Step 12**
 
 You can turn any text into a link, such as the text inside of a p element.
 
 Example Code
+
+```p
 <p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
+```
 
 In the text of your p element, turn the words cat photos into a link by adding opening and closing anchor (a) tags around these words. Then set the href attribute to https://freecatphotoapp.com
 
-Step 13
+**Step 13**
 
 Now that you turned the text cat photos inside the p element into a link, you don't need the second link below the p element. Delete the entire anchor element below the p element.
 
-Step 14
+**Step 14**
 
 To open links in a new tab, you can use the target attribute on the anchor (a) element.
 
@@ -182,11 +189,13 @@ Here is the basic syntax for an a element with a target attribute:
 
 Example Code
 
+```href
 <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+```
 
 Add a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
 
-Step 15
+**Step 15**
 
 In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
 
@@ -194,13 +203,15 @@ Here is an example of turning an image into a link:
 
 Example Code
 
+```href
 <a href="example-link">
   <img src="image-link.jpg" alt="A photo of a cat.">
 </a>
+```
 
 Turn the image into a link by surrounding it with necessary element tags. Use https://freecatphotoapp.com as the anchor's href attribute value.
 
-Step 16
+**Step 16**
 
 Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
 
@@ -208,22 +219,24 @@ The section element is used to define sections in a document, such as chapters, 
 
 Example Code
 
+```section
 <section>
   <h2>Section Title</h2>
   <p>Section content...</p>
 </section>
+```
 
 Take your h2, comment, p, and anchor (a) elements and nest them in a section element.
 
-Step 17
+**Step 17**
 
 It is time to add a new section. Add a second section element below the existing section element.
 
-Step 18
+**Step 18**
 
 Within the second section element, add a new h2 element with the text Cat Lists.
 
-Step 19
+**Step 19**
 
 When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
@@ -231,7 +244,7 @@ After the last h2 element of the second section element, add an h3 element with 
 
 Things cats love:
 
-Step 20
+**Step 20**
 
 To create an unordered list of items, you can use the ul element.
 
