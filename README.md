@@ -256,3 +256,20 @@ To create an unordered list of items, you can use the ul element.
 
 After the h3 element with the Things cats love: text, add an unordered list (ul) element. Note that nothing will be displayed at this point.
 
+**Step 21**
+
+The 'li' element is used to create a list item in an ordered or unordered list.
+
+Here is an example of list items in an unordered list:
+
+Example Code
+
+'''ul
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+'''</ul>
+
+Within the 'ul' element nest three list items to display three things cats love:
+
+'cat nip' 'laser pointers' 'lasagna'
