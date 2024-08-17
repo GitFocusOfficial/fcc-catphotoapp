@@ -309,3 +309,12 @@ Example Code
 After the image nested in the `figure` element, add a `figcaption` element with text set to:
 
 `Cats love lasagna.`
+
+**Step 25**
+
+To place emphasis on a specific word or phrase, you can use the `em` element.
+
+Emphasize the word `love` in the `figcaption` element by wrapping it in an emphasis `em` element.
+
+**Step 26**
+
