@@ -318,3 +318,28 @@ Emphasize the word `love` in the `figcaption` element by wrapping it in an empha
 
 **Step 26**
 
+After the `figure` element, add another `h3` element with the text:
+
+`Top 3 things cats hate:`
+
+**Step 27**
+
+The code for an ordered list (`ol`) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+
+After the second `section` element's last `h3` element, add an ordered list with these three list items:
+
+`flea treatment` `thunder` `other cats`
+
+**Step 28**
+
+After the ordered list, add another `figure` element.
+
+**Step 29**
+
+Inside the `figure` element you just added, nest an `img` element with a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+
+**Step 30**
+
+To improve accessibility of the image you added, add an `alt` attribute with the text:
+
+`Five cats looking around a field.`
