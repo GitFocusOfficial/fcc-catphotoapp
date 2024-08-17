@@ -274,3 +274,38 @@ Example Code
 Within the `ul` element nest three list items to display three things cats love:
 
 `cat nip` `laser pointers` `lasagna`
+
+**Step 22**
+
+After the unordered list, add a new image with a `src` attribute value set to:
+
+`https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg`
+
+And its `alt` attribute value to:
+
+`A slice of lasagna on a plate.`
+
+**Step 23**
+
+The `figure` element represents self-contained content and will allow you to associate an image with a caption.
+
+Nest the image you just added within a `figure` element.
+
+**Step 24**
+
+A figure caption (`figcaption`) element is used to add a caption to describe the image contained within the `figure` element.
+
+Here is an example of a `figcaption` element with the caption of `A cute cat`:
+
+Example Code
+
+```figure
+<figure>
+  <img src="image.jpg" alt="A description of the image">
+  <figcaption>A cute cat</figcaption>
+</figure>
+```
+
+After the image nested in the `figure` element, add a `figcaption` element with text set to:
+
+`Cats love lasagna.`
