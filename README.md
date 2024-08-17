@@ -268,7 +268,8 @@ Example Code
 <ul>
   <li>milk</li>
   <li>cheese</li>
-```</ul>
+</ul>
+```
 
 Within the `ul` element nest three list items to display three things cats love:
 
