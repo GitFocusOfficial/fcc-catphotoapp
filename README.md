@@ -258,18 +258,18 @@ After the h3 element with the Things cats love: text, add an unordered list (ul)
 
 **Step 21**
 
-The 'li' element is used to create a list item in an ordered or unordered list.
+The `li` element is used to create a list item in an ordered or unordered list.
 
 Here is an example of list items in an unordered list:
 
 Example Code
 
-'''ul
+```ul
 <ul>
   <li>milk</li>
   <li>cheese</li>
-'''</ul>
+```</ul>
 
-Within the 'ul' element nest three list items to display three things cats love:
+Within the `ul` element nest three list items to display three things cats love:
 
-'cat nip' 'laser pointers' 'lasagna'
+`cat nip` `laser pointers` `lasagna`
