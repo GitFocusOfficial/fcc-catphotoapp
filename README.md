@@ -343,3 +343,91 @@ Inside the `figure` element you just added, nest an `img` element with a `src` a
 To improve accessibility of the image you added, add an `alt` attribute with the text:
 
 `Five cats looking around a field.`
+
+**Step 31**
+
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats`.
+
+**Step 32**
+
+The `strong` element is used to indicate that some text is of strong importance or urgent.
+
+In the `figcaption` you just added, indicate that `hate` is of strong importance by wrapping it in a `strong` element.
+
+**Step 33**
+
+It is time to add a new section. Add a third `section` element below the second `section` element.
+
+**Step 34**
+
+Inside the third `section` element, add an `h2` element with the text:
+
+`Cat Form`
+
+**Step 35**
+
+Now you will add a web form to collect information from users.
+
+The `form` element is used to get information from a user like their name, email, and other details.
+
+After the `Cat Form` heading, add a `form` element.
+
+**Step 36**
+
+The `action` attribute indicates where form data should be sent.
+
+Here is an example of a `form` element with an `action` attribute:
+
+Example Code
+
+```form
+<form action="/submit-url"></form>
+```
+
+In the example, `action="/submit-url"` tells the browser that the form data should be sent to the path `/submit-url`.
+
+Add an `action` attribute with the value `https://freecatphotoapp.com/submit-cat-photo` to the `form` element.
+
+**Step 37**
+
+The `input` element allows you several ways to collect data from a web form. Like `img` elements, `input` elements are a void element and do not need closing tags.
+
+Nest an `input` element in the `form` element.
+
+**Step 38**
+
+There are many kinds of inputs you can create using the `type` attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
+
+Create a text field to get text input from a user by adding the `type` attribute with the value `text` to the `input` element.
+
+**Step 39**
+
+In order for a form's data to be accessed by the location specified in the `action` attribute, you must give the text field a `name` attribute and assign it a value to represent the data being submitted.
+
+Here is an example of an `input` element with a `name` attribute:
+
+Example Code
+
+```input
+<input type="text" name="name">
+```
+
+Add the `name` attribute with the value `catphotourl` to your text field.
+
+**Step 40**
+
+Placeholder text is used to give people a hint about what kind of information to enter into an input.
+
+Here is an example of an `input` element with a placeholder set to `Ex. Jane Doe`:
+
+Example Code
+
+```input
+<input type="text" placeholder="Ex. Jane Doe">
+```
+
+Add the placeholder text `cat photo URL` to your `input` element.
+
+**Step 41**
+
+To prevent a user from submitting your form when required information is missing, you need to add the `required` attribute to an `input` element. There's no need to set a value to the `required` attribute. Instead, just add the word `required` to the `input` element, making sure there is space between it and other attributes.
